@@ -1,0 +1,137 @@
+.contact {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+
+.contact-item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contact-item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.contact-item-label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contact-item-label.message {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+
+.contact-item-label-required {
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+}
+
+.contact-item-input {
+  border: 1px solid #ddd;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 90%;
+  max-width: 410px;
+  background: #ddd;
+  font-size: 18px;
+}
+
+.contact-item-textarea {
+  border: 1px solid #ddd;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 90%;
+  max-width: 410px;
+  background: #ccc;
+  font-size: 18px;
+}
+
+.contact-btn {
+  margin: 30px auto 30px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  letter-spacing: 1;
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .contact {
+    margin-top: 40px;
+  }
+
+.contact-item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+
+.contact-item-label {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+
+.contact-item-label.message {
+    margin-top: 0;
+  }
+
+.contact-item-label-required {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+
+.contact-item-input {
+    margin-left: 0;
+    margin-top: 18px;
+    height: 40px;
+    flex: inherit;
+    font-size: 15px;
+  }
+
+.contact-item-textarea {
+    margin-top: 18px;
+    margin-left: 0;
+    height: 200px;
+    flex: inherit;
+    font-size: 15px;
+  }
+
+.contact-btn {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    font-size: 16px;
+  }
+}

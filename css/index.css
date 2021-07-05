@@ -1,0 +1,217 @@
+.top {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.top-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.top-bg img {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+
+.top-title {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-title h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 1px 2px 3px #333;
+}
+
+.top-title p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 1px 2px 3px #333;
+}
+
+.service {
+    width:100%;
+}
+
+.service .service-inner {
+    max-width:1000px;
+    margin:0px auto;
+    padding:80px 0px;
+}
+
+.service .service-content .service-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service .service-content .service-list-item {
+    margin:50px 0px;
+    padding:0px 50px;
+    text-align:center;
+    border-right: solid 3px #c1292e;
+}
+
+.service .service-content .service-list-item:last-child {
+  border-right: none;
+}
+
+.service .service-content .service-list-item .service-img {
+    display:block;
+    width:100%;
+    max-width:300px;
+    margin:0px auto 20px auto;
+    border-radius:100%;
+}
+
+.service .service-content .service-list-item .service-txt {
+    line-height:1.8rem;
+}
+
+.btn {
+  background: #000;
+  padding: 20px 30px;
+  width: 17%;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #333;
+}
+
+.btn a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.btn a:hover {
+  color: #f1d302;
+}
+
+.about {
+    width:100%;
+    background-image:url(../img/About.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+.about .about-inner {
+    max-width:1000px;
+    margin:0px auto;
+    padding:80px 0px;
+}
+
+.about .about-content .about-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .about-content .about-list-item {
+    padding:30px;
+    line-height:1.8rem;
+    color:#ffffff;
+    text-align:center;
+}
+
+.news {
+  margin-bottom: 100px;
+  
+}
+
+.news .section-ttl {
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+.news-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-item {
+  width: 30%;
+  height: auto;
+  margin-bottom: 100px;
+  cursor: pointer;
+  -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.news-item:hover {
+  -webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+.news-img {
+  display: contents;
+  width: 100%;
+}
+
+.news-img img {
+  width: 100%;
+}
+
+.news-txt {
+  padding: 0 16px;
+  color: #000;
+}
+
+.news-ttl {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 1;
+  color: #000;
+}
+
+.news-date {
+  font-size: 15px;
+  line-height: 1;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+  @media screen and (max-width: 480px) {
+  header {
+    display: block;
+  } 
+
+  .top-title h1 {
+    font-size: 35px;
+  }
+
+  .top-title p {
+    font-size: 15px;
+  }
+  
+.service .service-content .service-list {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.service .service-content .service-list-item {
+    margin:50px 0px;
+    padding:0px 50px;
+    text-align:center;
+    border-right: none;
+}
+
+.btn {
+  width: 30%;
+}
+}
