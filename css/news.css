@@ -58,12 +58,14 @@
 
 @media screen and (max-width: 480px) {
   .news-txt {
-    font-size: 10px;
+    font-size: 15px;
+    text-align: center;
   }
 
   .news-ttl {
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 5px;
+    margin-bottom: 10px;
   }
 
   .news-date {
@@ -83,12 +85,23 @@
     filter: none;
     -webkit-transition: none;
     transition: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: unset;
   }
 
   .news-img img {
     width: 80%;
-    margin: 0 10px 0 10px;
+    margin-left: 40px;
+    justify-items: center;
   }
+
+  .news-list {
+    display: inline-block;
+  }
+
+  .news {
+    margin-bottom: 30px;
+  }
+
 }

@@ -238,6 +238,8 @@
     filter: none;
     -webkit-transition: none;
     transition: none;
+    width: unset;
+    margin-bottom: 50px;
   }
 
   .news-ttl {
@@ -251,5 +253,13 @@
   .news-img img {
     width: 80%;
     margin: 0 10px 0 10px;
+  }
+
+  .news-list {
+    display: inline-block;
+  }
+
+  .news .section-ttl {
+    margin-bottom: 40px;
   }
 }
