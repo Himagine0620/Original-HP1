@@ -77,4 +77,18 @@
   .btn {
     width: 30%;
   }
+
+  .news-item {
+    -webkit-filter: none;
+    filter: none;
+    -webkit-transition: none;
+    transition: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .news-img img {
+    width: 80%;
+    margin: 0 10px 0 10px;
+  }
 }

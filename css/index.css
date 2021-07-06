@@ -197,6 +197,10 @@
   .top-title p {
     font-size: 15px;
   }
+
+  .service .service-inner {
+    padding: 0;
+  }
   
 .service .service-content .service-list {
     display: block;
@@ -211,7 +215,41 @@
     border-right: none;
 }
 
+.news {
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
 .btn {
   width: 30%;
 }
+
+.top-bg {
+  height: 300px;
+}
+
+.top-bg img {
+  height: 300px;
+}
+
+.news-item {
+    -webkit-filter: none;
+    filter: none;
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .news-ttl {
+    font-size: 12px;
+  }
+
+  .news-date {
+    font-size: 10px;
+  }
+
+  .news-img img {
+    width: 80%;
+    margin: 0 10px 0 10px;
+  }
 }

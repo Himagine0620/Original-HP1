@@ -9,7 +9,7 @@
 }
 
 .about-list-left {
-  font-size: 25px;
+  font-size: 18px;
   background: linear-gradient(#ddd, #eee, #fff);
   width: 45%;
   margin-right: 40px;
@@ -18,7 +18,7 @@
 }
 
 .about-list-left h2 {
-  font-size: 30px;
+  font-size: 23px;
   border-left: solid 5px #c1292e;
   padding-left: 20px;
   margin: 10px 0 10px 20px;
@@ -29,7 +29,7 @@
 }
 
 .about-list-right {
-  font-size: 25px;
+  font-size: 18px;
   background: linear-gradient(#ddd, #eee, #fff);
   width: 45%;
   margin-right: 40px;
@@ -38,7 +38,7 @@
 }
 
 .about-list-right h2 {
-  font-size: 30px;
+  font-size: 23px;
   border-left: solid 5px #c1292e;
   padding-left: 20px;
   margin: 10px 0 10px 20px;
@@ -148,7 +148,7 @@
   }
 
   .about-acc-all {
-    margin-top: 500px;
+    margin-top: 150px;
   }
 
   .about-acc-inner-r h2 {
